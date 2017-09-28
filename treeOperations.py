@@ -52,7 +52,6 @@ def listOfDepthsANSWER(root):
     while currentLL.node:
         result.append(currentLL)
         parentNode = currentLL.start
-        print(currentLL.node.value)
         currentLL = LinkedList()
         while parentNode:
             if parentNode.value.left:
