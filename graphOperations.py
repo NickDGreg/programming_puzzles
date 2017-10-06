@@ -34,7 +34,8 @@ class Project:
 
 def buildOrder(projects):
     """ex 4.7 finds a possible build order of a set of projects 
-    based on their dependencies. Uses BFS."""
+    based on their dependencies. Uses BFS.
+    A nicer version would be to use topological sort"""
     keepSearching = True
     co = [] #current build order
     pt = [] #paths tried
